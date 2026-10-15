@@ -1,6 +1,8 @@
 {
 	"image": "ghcr.io/graugans/cpp:2.0.0",
 	// Configure tool-specific properties.
+
+	"postCreateCommand": "git config --global user.name 'TeddyHDYT' && git config --global user.email 'elijah-brauch@web.de'",
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
