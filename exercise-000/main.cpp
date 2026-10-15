@@ -11,8 +11,12 @@ int main(int argc, char **argv) {
      * More info at https://fmt.dev/12.0/api/
      */
     fmt::print("Hello, {}!\n", tea::PROJECT_NAME);
+    
+    int x = 10;
+    int* ptr = &x;
 
-    /* INSERT YOUR CODE HERE */
+    fmt::println("Wert: {}",x);
+    fmt::println("Adresse: {}",fmt::ptr(ptr));
 
     return 0; /* exit gracefully*/
 }
